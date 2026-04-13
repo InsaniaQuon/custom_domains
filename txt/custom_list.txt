@@ -1,0 +1,30 @@
+# anime
+shikimori.io
+shikimori.rip
+animelib.org
+nyaa.si
+crunchyroll.com
+crunchyrollcdn.com
+
+# books
+koreader.rocks
+fantlab.org
+
+# kvn
+onexray.com
+v2raytun.com
+vpnjantit.com
+zerolab.net
+
+# PC
+arctic.de
+bequiet.com
+gskill.com
+noctua.at
+
+# router
+gl-inet.com.s3.amazonaws.com
+gl-inet.com
+d38w2gmtdarf5j.cloudfront.net
+
+# other
