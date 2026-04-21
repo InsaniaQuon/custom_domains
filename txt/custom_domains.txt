@@ -1,22 +1,29 @@
+# AI
+cursor.directory
+mcpmarket.com
+
 # anime
-shikimori.io
-shikimori.rip
 animelib.org
-nyaa.si
 crunchyroll.com
 crunchyrollcdn.com
+nyaa.si
+shikimori.io
+shikimori.rip
 
 # books
-koreader.rocks
 fantlab.org
+koreader.rocks
 
 # kvn
 expresshost.org
 onexray.com
-vpnjantit.com
-v2raytun.com
 v2fly.org
+v2raytun.com
+vpnjantit.com
 zerolab.net
+
+# other
+boosty.to
 
 # PC
 arctic.de
@@ -25,9 +32,6 @@ gskill.com
 noctua.at
 
 # router
-gl-inet.com.s3.amazonaws.com
-gl-inet.com
 d38w2gmtdarf5j.cloudfront.net
-
-# other
-boosty.to
+gl-inet.com
+gl-inet.com.s3.amazonaws.com
