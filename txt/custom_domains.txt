@@ -15,6 +15,7 @@ expresshost.org
 onexray.com
 vpnjantit.com
 v2raytun.com
+v2fly.org
 zerolab.net
 
 # PC
