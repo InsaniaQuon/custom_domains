@@ -15,6 +15,9 @@ shikimori.rip
 fantlab.org
 koreader.rocks
 
+# games
+helltides.com
+
 # kvn
 expresshost.org
 onexray.com
@@ -34,6 +37,7 @@ bequiet.com
 geekbench.com
 gskill.com
 noctua.at
+ubuntu-touch.io
 
 # router
 d38w2gmtdarf5j.cloudfront.net
