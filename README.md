@@ -18,10 +18,11 @@ custom_domains/
 ├── txt/                     # Source lists
 ├── json/                    # Auto-generated: sing-box source rule-set
 ├── lst/                     # Auto-generated: plain text list
-└── srs/                     # Auto-generated: compiled binary rule-set
+├── srs/                     # Auto-generated: compiled binary rule-set
+└── dat/                     # Auto-generated: Xray geo file
 ```
 
-> Files in `json/`, `lst/` and `srs/` are generated automatically from the sources in `txt/`.
+> Files in `json/`, `lst/`, `srs/` and `dat/` are generated automatically from the sources in `txt/`.
 
 ---
 
@@ -91,3 +92,13 @@ For subnets
 
 Compiled binary file.
 Binary format version: **2** (supported by sing-box 1.10.0+).
+
+---
+
+### `dat/` — Xray geo file
+
+Binary protobuf geo file for Exclave-style clients.
+One category per source file, tag = file name stem.
+
+> Domain type codes follow the Exclave core numbering (RootDomain = 2) —
+> not compatible with stock Xray-core.
