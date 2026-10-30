@@ -29,6 +29,13 @@ v2raytun.com
 vpnjantit.com
 zerolab.net
 
+# linux
+itsfoss.com
+linuxconfig.org
+linuxiac.com
+linuxize.com
+tecmint.com
+
 # other
 auroraoss.com
 boosty.to
