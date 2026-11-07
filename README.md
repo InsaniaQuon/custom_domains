@@ -18,12 +18,13 @@ custom_domains/
 ├── txt/                     # Source lists
 ├── json/                    # Auto-generated: sing-box source rule-set
 ├── lst/                     # Auto-generated: plain text list
+├── list/                    # Auto-generated: text rule-set
 ├── srs/                     # Auto-generated: compiled binary rule-set
 ├── dat/                     # Auto-generated: Xray geo file
 └── hagezi/                  # Auto-generated: HaGeZi blocklists
 ```
 
-> Files in `json/`, `lst/`, `srs/` and `dat/` are generated automatically from the sources in `txt/`.
+> Files in `json/`, `lst/`, `list/`, `srs/` and `dat/` are generated automatically from the sources in `txt/`.
 
 ---
 
@@ -49,6 +50,17 @@ Same as `txt/`, but without comments — only domains or subnets.
 ```
 youtube.com
 googlevideo.com
+```
+
+---
+
+### `list/` — text rule-set
+
+One rule per line, without an embedded policy. Domains use `DOMAIN-SUFFIX`, IPv4 networks use `IP-CIDR`.
+
+```
+DOMAIN-SUFFIX,youtube.com
+IP-CIDR,74.125.250.0/24
 ```
 
 ---
