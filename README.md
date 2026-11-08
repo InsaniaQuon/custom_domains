@@ -5,9 +5,10 @@ The lists are used together with sing-box based clients.
 
 ---
 
-## sing-box version
+## Core versions
 
-`.srs` files are compiled with **sing-box 1.14.4**.
+- `.srs` files are compiled with **sing-box 1.14.4**.
+- `.mrs` files are compiled with **mihomo 1.19.33**.
 
 ---
 
@@ -20,11 +21,12 @@ custom_domains/
 ├── lst/                     # Auto-generated: plain text list
 ├── list/                    # Auto-generated: text rule-set
 ├── srs/                     # Auto-generated: compiled binary rule-set
+├── mrs/                     # Auto-generated: mihomo binary rule-set
 ├── dat/                     # Auto-generated: Xray geo file
 └── hagezi/                  # Auto-generated: HaGeZi blocklists
 ```
 
-> Files in `json/`, `lst/`, `list/`, `srs/` and `dat/` are generated automatically from the sources in `txt/`.
+> Files in `json/`, `lst/`, `list/`, `srs/`, `mrs/` and `dat/` are generated automatically from the sources in `txt/`.
 
 ---
 
@@ -108,6 +110,14 @@ Binary format version: **2** (supported by sing-box 1.10.0+).
 
 ---
 
+### `mrs/` — mihomo binary rule-set
+
+Compiled binary file. Supports `domain` and `ipcidr` behaviors.
+
+Domain lists (`custom_domains`, `ip-checker`) use `domain` behavior with `+.domain` inputs to match the apex domain and subdomains. `custom_subnets` uses `ipcidr` behavior.
+
+---
+
 ### `dat/` — Xray geo file
 
 Binary protobuf geo file: `GeoSiteList` for domains or `GeoIPList` for subnets.
@@ -119,12 +129,12 @@ Domain type: `RootDomain = 2`.
 ## HaGeZi blocklists
 
 Generated directly from the original [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists)
-Adblock sources as `.list` and `.dat` files.
+Adblock sources as `.list`, `.dat` and `.mrs` files.
 
-| Rule set | Original HaGeZi source | LIST download | DAT download |
-| --- | --- | --- | --- |
-| `hagezi-light` | [adblock/light.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | [hagezi-light.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-light.list) | [hagezi-light.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-light.dat) |
-| `hagezi-normal` | [adblock/multi.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt) | [hagezi-normal.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-normal.list) | [hagezi-normal.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-normal.dat) |
-| `hagezi-pro` | [adblock/pro.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | [hagezi-pro.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-pro.list) | [hagezi-pro.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-pro.dat) |
-| `hagezi-pro-plus` | [adblock/pro.plus.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | [hagezi-pro-plus.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-pro-plus.list) | [hagezi-pro-plus.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-pro-plus.dat) |
-| `hagezi-ultimate` | [adblock/ultimate.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | [hagezi-ultimate.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-ultimate.list) | [hagezi-ultimate.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-ultimate.dat) |
+| Rule set | Original HaGeZi source | LIST download | DAT download | MRS download |
+| --- | --- | --- | --- | --- |
+| `hagezi-light` | [adblock/light.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt) | [hagezi-light.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-light.list) | [hagezi-light.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-light.dat) | [hagezi-light.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-light.mrs) |
+| `hagezi-normal` | [adblock/multi.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt) | [hagezi-normal.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-normal.list) | [hagezi-normal.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-normal.dat) | [hagezi-normal.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-normal.mrs) |
+| `hagezi-pro` | [adblock/pro.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | [hagezi-pro.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-pro.list) | [hagezi-pro.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-pro.dat) | [hagezi-pro.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-pro.mrs) |
+| `hagezi-pro-plus` | [adblock/pro.plus.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | [hagezi-pro-plus.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-pro-plus.list) | [hagezi-pro-plus.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-pro-plus.dat) | [hagezi-pro-plus.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-pro-plus.mrs) |
+| `hagezi-ultimate` | [adblock/ultimate.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | [hagezi-ultimate.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-ultimate.list) | [hagezi-ultimate.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-ultimate.dat) | [hagezi-ultimate.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-ultimate.mrs) |
