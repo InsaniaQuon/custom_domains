@@ -1,7 +1,7 @@
 # custom_domains
 
 Personal repository with domain and subnet lists for granular traffic routing.
-The lists are used together with sing-box based clients.
+The lists are provided in multiple text and binary formats.
 
 ---
 
@@ -23,7 +23,11 @@ custom_domains/
 ├── srs/                     # Auto-generated: compiled binary rule-set
 ├── mrs/                     # Auto-generated: mihomo binary rule-set
 ├── dat/                     # Auto-generated: Xray geo file
-└── hagezi/                  # Auto-generated: HaGeZi blocklists
+├── hagezi/                  # Auto-generated: HaGeZi blocklists
+└── runetfreedom_export/      # Auto-generated: selected RunetFreedom lists
+    └── category-ai-!cn/
+        ├── mrs/             # Domain rules
+        └── list/            # Additional classical rules
 ```
 
 > Files in `json/`, `lst/`, `list/`, `srs/`, `mrs/` and `dat/` are generated automatically from the sources in `txt/`.
@@ -138,3 +142,15 @@ Adblock sources as `.list`, `.dat` and `.mrs` files.
 | `hagezi-pro` | [adblock/pro.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt) | [hagezi-pro.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-pro.list) | [hagezi-pro.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-pro.dat) | [hagezi-pro.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-pro.mrs) |
 | `hagezi-pro-plus` | [adblock/pro.plus.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.plus.txt) | [hagezi-pro-plus.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-pro-plus.list) | [hagezi-pro-plus.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-pro-plus.dat) | [hagezi-pro-plus.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-pro-plus.mrs) |
 | `hagezi-ultimate` | [adblock/ultimate.txt](https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/ultimate.txt) | [hagezi-ultimate.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/list/hagezi-ultimate.list) | [hagezi-ultimate.dat](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/dat/hagezi-ultimate.dat) | [hagezi-ultimate.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/hagezi/mrs/hagezi-ultimate.mrs) |
+
+---
+
+## RunetFreedom exports
+
+`runetfreedom_export/` contains selected lists from [RunetFreedom](https://github.com/runetfreedom/russia-v2ray-rules-dat), converted into the required formats.
+
+| Rule set | MRS download | Additional rules |
+| --- | --- | --- |
+| AI services (`category-ai-!cn`) | [category-ai-!cn.mrs](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/runetfreedom_export/category-ai-!cn/mrs/category-ai-!cn.mrs) | [category-ai-!cn-extra.list](https://raw.githubusercontent.com/InsaniaQuon/custom_domains/main/runetfreedom_export/category-ai-!cn/list/category-ai-!cn-extra.list) |
+
+Use both files together: MRS with `behavior: domain`, and the additional text list with `behavior: classical` for rules that MRS cannot represent.
