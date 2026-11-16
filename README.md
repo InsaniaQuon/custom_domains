@@ -125,8 +125,17 @@ Domain lists (`custom_domains`, `ip-checker`) use `domain` behavior with `+.doma
 ### `dat/` — Xray geo file
 
 Binary protobuf geo file: `GeoSiteList` for domains or `GeoIPList` for subnets.
-One category per source file, tag = file name stem.
+One category per source file, tag = uppercase source filename stem.
 Domain type: `RootDomain = 2`.
+
+| File | Type | Category tag |
+| --- | --- | --- |
+| `custom_domains.dat` | GeoSite | `CUSTOM_DOMAINS` |
+| `custom_subnets.dat` | GeoIP | `CUSTOM_SUBNETS` |
+| `ip-checker.dat` | GeoSite | `IP-CHECKER` |
+
+Use `ext:custom_domains.dat:custom_domains` in a routing rule's `domain` array (`routing.rules[].domain`).
+Xray uppercases the category name when loading it, so lowercase references work. Filename case is handled separately by the filesystem; use the exact filename shown above.
 
 ---
 
