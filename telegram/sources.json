@@ -1,0 +1,49 @@
+{
+  "generator_version": "6.0.0",
+  "output_sha256": {
+    "telegram/telegram_domains-extra.list": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "telegram/telegram_domains.dat": "0b78b6c2dec44cbc8ac69bfaebb7050425fd3f51d61ef39f4ae4859781da53ac",
+    "telegram/telegram_domains.json": "ccf72cd85a09e8c4c0566b2bb2ae339ee55c3fd441e43c38a15fbbfa73de7d93",
+    "telegram/telegram_domains.mrs": "ffa4d1d3e8649965e529c1c570d8add75a0d6f70aa8503ece8add841ce48c0e7",
+    "telegram/telegram_domains.srs": "30cd392b1d79b0569af077874b36c6892bf13a94dce0d8e4410c3b1976d62ea2",
+    "telegram/telegram_ips.dat": "3caac409861a7dd2cae5582852d9f7c888c12dcf31ad1ce7356ce0da78eca5a3",
+    "telegram/telegram_ips.json": "c0b58429b20f89fc75ff8cfbd8ccd2e3c5f1fb68d6d803be2b6bc1d62035fb27",
+    "telegram/telegram_ips.mrs": "3362a1cb6b37f9e7cc7c42d673e1f1cf8f61d4cd7e1df65a08b80012cb20ba84",
+    "telegram/telegram_ips.srs": "5ea8eac972359ba85cb45797a84fea835776f5b0abb3ef430c0d1e8060d71e61"
+  },
+  "sources": {
+    "geosite": {
+      "categories": {
+        "ru-available-only-inside": 170,
+        "telegram": 21
+      },
+      "revision": "8ef3c351fcce85bfd24fe6d81d3c820b42cceaea",
+      "sha256": "eb5af5354723d2be705f6647e556f52f61e6a869099e928382c88d9be6fbafa1",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/8ef3c351fcce85bfd24fe6d81d3c820b42cceaea/geosite.dat"
+    },
+    "telegram_domains_itdog": {
+      "normalized_count": 20,
+      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "sha256": "13c98dacc0f99a5fccf51ec3f12054f599dbc34e7282348c3722125922834b7a",
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Services/telegram.lst"
+    },
+    "telegram_ips_runetfreedom": {
+      "normalized_count": 12,
+      "revision": "452bdfb645890993f4c0604cacb6a5169469be79",
+      "sha256": "53437464eec1ac4396b00e8b6ad427ed0cf54bfac6339575a2cef48d8753e961",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/452bdfb645890993f4c0604cacb6a5169469be79/text/telegram.txt"
+    },
+    "telegram_ipv4_itdog": {
+      "normalized_count": 10,
+      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "sha256": "985fc6c3cc167f67baa8d7fb4b27f1b9307f179639c421c0900c0f04b7b63cac",
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Subnets/IPv4/telegram.lst"
+    },
+    "telegram_ipv6_itdog": {
+      "normalized_count": 4,
+      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "sha256": "eb9da4fe13d1c6cd9a83044b542bcbabc78abe57058349ea0c0ab0784d8d2b4f",
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Subnets/IPv6/telegram.lst"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "generator_version": "6.0.0",
+  "output_sha256": {
+    "exclusion/exclusion-extra.list": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exclusion/exclusion.dat": "759a47ebaee78e54d1d74f696d49d44cc99e2cf2990172f8b13ed5fe4588ee8a",
+    "exclusion/exclusion.json": "2b04de5d3eb5af3840a6303c6820535873dd24ed8cd3bf3e36cd7ad2148d1887",
+    "exclusion/exclusion.mrs": "30a5d980f0b34537dd59653a3c89f338ab45b774b74184a85760dcd171b4b52f",
+    "exclusion/exclusion.srs": "2312002776beb8a9503f9e08c39f6e1292a8e4f70726476f8d60baf6f59cd260",
+    "exclusion/exclusion.txt": "763fd546f76a6eb495f5d87cd1b02e740e079200cd9d6032d8d3c56fe34afa66"
+  },
+  "sources": {
+    "exclusion_itdog": {
+      "normalized_count": 39,
+      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "sha256": "1eea61579a34f125cc079f20c55398199ba407efcc3ee87023bee5e4a9ca2671",
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Russia/outside-raw.lst"
+    },
+    "geosite": {
+      "categories": {
+        "ru-available-only-inside": 170,
+        "telegram": 21
+      },
+      "revision": "8ef3c351fcce85bfd24fe6d81d3c820b42cceaea",
+      "sha256": "eb5af5354723d2be705f6647e556f52f61e6a869099e928382c88d9be6fbafa1",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/8ef3c351fcce85bfd24fe6d81d3c820b42cceaea/geosite.dat"
+    }
+  }
+}
