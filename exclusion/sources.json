@@ -20,9 +20,9 @@
         "ru-available-only-inside": 170,
         "telegram": 21
       },
-      "revision": "8ef3c351fcce85bfd24fe6d81d3c820b42cceaea",
-      "sha256": "eb5af5354723d2be705f6647e556f52f61e6a869099e928382c88d9be6fbafa1",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/8ef3c351fcce85bfd24fe6d81d3c820b42cceaea/geosite.dat"
+      "revision": "9b366b1bae13d5acd63ff4eb8c5cd12221e87c6a",
+      "sha256": "25bcfcd18a4d4f7ceb31dbb5c774cfec3db53e685afce48d1730f961f0423620",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/9b366b1bae13d5acd63ff4eb8c5cd12221e87c6a/geosite.dat"
     }
   }
 }

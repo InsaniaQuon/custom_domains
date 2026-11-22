@@ -17,9 +17,9 @@
         "ru-available-only-inside": 170,
         "telegram": 21
       },
-      "revision": "8ef3c351fcce85bfd24fe6d81d3c820b42cceaea",
-      "sha256": "eb5af5354723d2be705f6647e556f52f61e6a869099e928382c88d9be6fbafa1",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/8ef3c351fcce85bfd24fe6d81d3c820b42cceaea/geosite.dat"
+      "revision": "9b366b1bae13d5acd63ff4eb8c5cd12221e87c6a",
+      "sha256": "25bcfcd18a4d4f7ceb31dbb5c774cfec3db53e685afce48d1730f961f0423620",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/9b366b1bae13d5acd63ff4eb8c5cd12221e87c6a/geosite.dat"
     },
     "telegram_domains_itdog": {
       "normalized_count": 20,
@@ -29,9 +29,9 @@
     },
     "telegram_ips_runetfreedom": {
       "normalized_count": 12,
-      "revision": "452bdfb645890993f4c0604cacb6a5169469be79",
+      "revision": "9ff880dc0b4be3b361bd7b8f2bfc06abb4d5c1cd",
       "sha256": "53437464eec1ac4396b00e8b6ad427ed0cf54bfac6339575a2cef48d8753e961",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/452bdfb645890993f4c0604cacb6a5169469be79/text/telegram.txt"
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/9ff880dc0b4be3b361bd7b8f2bfc06abb4d5c1cd/text/telegram.txt"
     },
     "telegram_ipv4_itdog": {
       "normalized_count": 10,
