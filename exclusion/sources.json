@@ -11,18 +11,18 @@
   "sources": {
     "exclusion_itdog": {
       "normalized_count": 39,
-      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "revision": "73bea2a42d86521cf3d355fd0c8dbc52eca872c6",
       "sha256": "1eea61579a34f125cc079f20c55398199ba407efcc3ee87023bee5e4a9ca2671",
-      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Russia/outside-raw.lst"
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/73bea2a42d86521cf3d355fd0c8dbc52eca872c6/Russia/outside-raw.lst"
     },
     "geosite": {
       "categories": {
         "ru-available-only-inside": 170,
         "telegram": 21
       },
-      "revision": "5bbea8e09e266165217173905b4674e99a37b845",
-      "sha256": "581e51c2bf93b28bcdd47f8ed165cd61f0e1dee6dac641675b0f696d643d12cc",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/5bbea8e09e266165217173905b4674e99a37b845/geosite.dat"
+      "revision": "32c10c3104630ce2d99888649773b0f339a3a8b6",
+      "sha256": "4b1b902016837f473b37b3d9198ca2b9d240eefde7be60a5207b35419ba7282c",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/32c10c3104630ce2d99888649773b0f339a3a8b6/geosite.dat"
     }
   }
 }

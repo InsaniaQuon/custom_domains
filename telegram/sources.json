@@ -17,33 +17,33 @@
         "ru-available-only-inside": 170,
         "telegram": 21
       },
-      "revision": "5bbea8e09e266165217173905b4674e99a37b845",
-      "sha256": "581e51c2bf93b28bcdd47f8ed165cd61f0e1dee6dac641675b0f696d643d12cc",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/5bbea8e09e266165217173905b4674e99a37b845/geosite.dat"
+      "revision": "32c10c3104630ce2d99888649773b0f339a3a8b6",
+      "sha256": "4b1b902016837f473b37b3d9198ca2b9d240eefde7be60a5207b35419ba7282c",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/32c10c3104630ce2d99888649773b0f339a3a8b6/geosite.dat"
     },
     "telegram_domains_itdog": {
       "normalized_count": 20,
-      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "revision": "73bea2a42d86521cf3d355fd0c8dbc52eca872c6",
       "sha256": "13c98dacc0f99a5fccf51ec3f12054f599dbc34e7282348c3722125922834b7a",
-      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Services/telegram.lst"
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/73bea2a42d86521cf3d355fd0c8dbc52eca872c6/Services/telegram.lst"
     },
     "telegram_ips_runetfreedom": {
       "normalized_count": 12,
-      "revision": "a481b707c65792b02db7cd1fa43a0627e129a17e",
+      "revision": "fd04848fcf6e83ff30a51345d7eba468f967f67c",
       "sha256": "53437464eec1ac4396b00e8b6ad427ed0cf54bfac6339575a2cef48d8753e961",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/a481b707c65792b02db7cd1fa43a0627e129a17e/text/telegram.txt"
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/fd04848fcf6e83ff30a51345d7eba468f967f67c/text/telegram.txt"
     },
     "telegram_ipv4_itdog": {
       "normalized_count": 10,
-      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "revision": "73bea2a42d86521cf3d355fd0c8dbc52eca872c6",
       "sha256": "985fc6c3cc167f67baa8d7fb4b27f1b9307f179639c421c0900c0f04b7b63cac",
-      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Subnets/IPv4/telegram.lst"
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/73bea2a42d86521cf3d355fd0c8dbc52eca872c6/Subnets/IPv4/telegram.lst"
     },
     "telegram_ipv6_itdog": {
       "normalized_count": 4,
-      "revision": "932e11c43a9e000a24ba08129c15d99287c6e9a9",
+      "revision": "73bea2a42d86521cf3d355fd0c8dbc52eca872c6",
       "sha256": "eb9da4fe13d1c6cd9a83044b542bcbabc78abe57058349ea0c0ab0784d8d2b4f",
-      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/932e11c43a9e000a24ba08129c15d99287c6e9a9/Subnets/IPv6/telegram.lst"
+      "url": "https://raw.githubusercontent.com/itdoginfo/allow-domains/73bea2a42d86521cf3d355fd0c8dbc52eca872c6/Subnets/IPv6/telegram.lst"
     }
   }
 }
