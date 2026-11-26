@@ -2,11 +2,11 @@
   "generator_version": "6.0.0",
   "output_sha256": {
     "exclusion/exclusion-extra.list": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-    "exclusion/exclusion.dat": "759a47ebaee78e54d1d74f696d49d44cc99e2cf2990172f8b13ed5fe4588ee8a",
-    "exclusion/exclusion.json": "2b04de5d3eb5af3840a6303c6820535873dd24ed8cd3bf3e36cd7ad2148d1887",
-    "exclusion/exclusion.mrs": "30a5d980f0b34537dd59653a3c89f338ab45b774b74184a85760dcd171b4b52f",
-    "exclusion/exclusion.srs": "2312002776beb8a9503f9e08c39f6e1292a8e4f70726476f8d60baf6f59cd260",
-    "exclusion/exclusion.txt": "763fd546f76a6eb495f5d87cd1b02e740e079200cd9d6032d8d3c56fe34afa66"
+    "exclusion/exclusion.dat": "9bf98e6e99e3906cd9683dce35988afe231bf33bd845914d3902c6f65ea036d3",
+    "exclusion/exclusion.json": "b1da6d53bfa636f93b935e7343e2178a19c020ed43a291db33762e86f7267452",
+    "exclusion/exclusion.mrs": "7e0fcdf58ed23719905664bfe7cd3772dc469f4f69b0d37dc2b3fe86c8f55c4f",
+    "exclusion/exclusion.srs": "2d474494d8a6c19cce4de55cdecfca537be68b0bd2d861f01bcca897e0de6823",
+    "exclusion/exclusion.txt": "3b56111eaf0b3ab9c10e3430f0c6459115a9bb06d3038d279ffc1dae153b0bfd"
   },
   "sources": {
     "exclusion_itdog": {
@@ -17,12 +17,12 @@
     },
     "geosite": {
       "categories": {
-        "ru-available-only-inside": 170,
+        "ru-available-only-inside": 434,
         "telegram": 21
       },
-      "revision": "94ec29614c1db292c62be4ae87c3f86fdd16db10",
-      "sha256": "b9081dee8f8eb67cbfb0199e9890403179bd616700e230fcd7b8e9765986370b",
-      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/94ec29614c1db292c62be4ae87c3f86fdd16db10/geosite.dat"
+      "revision": "b75eb27a45a654bbe4326de23a6b05db85cf699c",
+      "sha256": "b1f8e08f015ec4ce49690d58b254af953b73f364bcce288e3ef32579797c32fd",
+      "url": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/b75eb27a45a654bbe4326de23a6b05db85cf699c/geosite.dat"
     }
   }
 }
